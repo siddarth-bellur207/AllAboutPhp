@@ -37,6 +37,9 @@ and open the template in the editor.
         echo "<br>";
         echo strtoupper($b);
         echo "<br>";
+        echo strpos("I like PHP","PHP");
+        echo "<br>";
+        echo str_replace("PHP","Java","I like PHP");
         ?>
     </body>
 </html>
